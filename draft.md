@@ -12,14 +12,13 @@ bibliography: references.bib
 
 # The opportunity
 
-- The intermediate tables are a rich source of organized information about research projects.
-They are the distilled product of several days of highly-specialized work. 
+1.  These intermediate tables are a rich source of organized information about research projects. They are the distilled product of several days of highly-specialized work.
 
-- They are already organized (you needed to organize it for your project!) and could be made available to the community. 
+2.  They are already organized (you needed to organize it for your project!) and could be made available to the community.
 
-- Large biocuration  databases, like UniProt, are a core resource of current research 
+3.  Large biocuration databases, like UniProt [*add other examples*], are a core resource of current research.
 
-- The large amount of small hidden curations, if combined and distributed, could make a similarly huge impact in the flow of information. 
+4.  The large amount of small hidden data curations, if combined and distributed, could make a similarly huge impact in the flow of information.
 
 # The approach
 
