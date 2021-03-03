@@ -20,17 +20,17 @@ bibliography: references.bib
 
 4.  The large amount of small hidden data curations, if combined and distributed, could make a similarly huge impact in the flow of information.
 
-# The approach
+# The proposed approach
 
-- Make datasets available in Zenodo
+1.  We propose an approach that tries to balance the cost of making these intermediate datasets available with the value for the researchers who performed the data curation and for the scientific community at large [@stieglitz2020]. Hence our focus on systematic reviews, where the data curation is a necessary step - the structured dataset is a side effect.
 
-- Describe datasets with enough information to facilitate reuse
+2.  Make datasets available in Zenodo.
 
-- Use, when possible, identifiers.
+3.  Describe datasets with enough information to facilitate reuse.
 
-- If feeling confortable, add to Wikidata and reference your publically available table.
+4.  Use, when possible, identifiers (e.g. DOI).
 
-# The why
+5.  If feeling comfortable, add to Wikidata and reference your publically available table.
 
 - Your work has value: other researchers will love to see your curation, even if it is not perfect. If could save them many hours of work. 
 
