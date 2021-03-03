@@ -1,15 +1,14 @@
+---
+bibliography: references.bib
+---
+
 # The situation
 
-- Research projects always involve familiarization with the literature. 
-- True for all projects, but obviously true for narrative and systematic reviews. 
+1.  Research projects always involve familiarization with the literature. This is true for all projects, but it's more explicit and obviously true for narrative and systematic reviews.
 
-- Often (if not always) the literature curation generates intermediate products
-contained organized, tabulated information about the articles of interest
+2.  Often (if not always) the literature curation generates intermediate products containing organized, tabulated information about the articles of interest. These intermediate tables are the basis for preparing experiments and discussing results. For instance, in systematic reviews, they are screened based on certain criteria, and only a fraction of the studies are included in the end.
 
-- These intermediate tables are the basis for preparing experiments and discussing results. 
-
-- In reviews, they are screened based on certain criteria, and only a fraction of the studies
- are included in the end.
+3.  While when pooled together, this might amount to an enormous amount of data, most scientists produce small datasets [@ferguson2014] - most of which, currently, are not made public.
 
 # The opportunity
 
