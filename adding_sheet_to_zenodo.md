@@ -68,6 +68,8 @@ Next step: Add info to Wikidata!
 
 ## Reconciling to Wikidata
 
+tl;dr: Send tiago.lubiana.alves at usp.br and email, and he (I) will make that / help you with the process. 
+
 Now the dataset is super searchable, what is great. 
 However, we can extract even more value from the curation effort. 
 
@@ -127,15 +129,74 @@ Column names followed by __"_QID"___ hold the Wikidata IDs relative to that colu
 On Zenodo, I click on "Upload" and on the dataset we uploaded in the previous session. Then, on "New Version" I can add the new tables.
 I won't change the ones that are already there. What I do, then is :
 
-* Upload the new files (a "wikidata_reconciled" sheet and the .xlsx). 
+* Upload the new files (a "wikidata_reconciled" sheet and the .xlsx). ("Choose Files" + "Start Upload")
 * Add the new column details the Zenodo description.  
 * Add the link to the Google Sheet: https://docs.google.com/spreadsheets/d/1LjF4h8n6Sy4PgTJoC-fJ7mGnqGCvqmWiatf2zD-5RM8. 
 * Bump the file version to 1.1 
 
+- Click "Save"
+- Click "Publish"
+
 ### Adding information to Wikidata
 
 Now we have a set of diseases and the articles that talk about them. 
-We can add that to Wikidata using a property called "main subject", which is basically a way to say "keyword" in the Wikidata universe. 
+We can add that directly to the Wikidata database using a property called "main subject", which is basically a way to say "keyword" in the Wikidata universe. 
+
+For that, we will use a syntax called "Quickstatements V1". 
+On a spreadsheet, we use the columns to build a series of "statements" like:
+
+Q35073924	P921	Q12156	S854	"https://zenodo.org/record/4573573#.YEaYGnVKi00"
+																					
+Which means that this specific article (Q35073924) is about (P921) malaria (Q12156) as said in the url (S854) "https://zenodo.org/record/4573573#.YEaYGnVKi00".
+
+On a new sheet, we add a column of "P921" between articles and diseases and the 2 reference columns in the end. 
+
+These "statements" are pasted into the Quickstatements system (<https://quickstatements.toolforge.org/#/batch>) which is a way to make batch edits to Wikidata. 
+
+(To use the system, you need 100 manual edits in the system. One way of achieving that is adding aliases on Wikidata for a few terms here and there). 
+
+On Quickstatements:
+
+* Log in with your Wikidata account
+* Click on New Batch
+* Paste your series of commands in the format above
+* Click on "Import V1 commands"
+* Check if everything looks at expected (the system will render human-readable statements for you to check)
+* If it looks ok, click on "Run" 
+
+Nice, now your curation is live on Wikidata!
+
+Everyone can benefit from it, including you. 
+
+To showcase the power, I will reconcile the column with the Gene Expression Omnibus IDs to Wikidata. 
+For that, I'll use the "external data" (P1325) property. The triples go like this:
+
+Q35073924	P1325	"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE5418"	S854	"https://zenodo.org/record/4589519"
+
+Which reads like this specific article (Q35073924) has external data (P1325) at the url "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE5418" as said in the url (S854) "https://zenodo.org/record/4589519".
+
+I follow once more the steps on Quickstatements to add to Wikidata. 
+
+### Using the power of Wikidata for your curation
+
+Now we can use the Wikidata query system and the ontological structure to make very useful queries. 
+
+For example, let's look for articles about any neurodegenerative disease and their external datasets. 
+
+For that, we build a query in the SPARQL language at <query.wikidata.org>, which can be acessed here: https://w.wiki/34rP. 
+
+As of March 8 2021, Wikidata has 18 matches for that query, some of which came from my curation, and some that were already there. 
+
+SPARQL queries are very flexible, and allow us to navigate this sea of knowledge. 
+
+In this simple example, it already helped me to discover new datasets. 
+
+Now imagine that all mini tables, like the ones you already have, were represented on Wikidata? 
+
+That could have a transformative change in the daily life of _all_ researchers, streamlining biocuration and saving millions of person/hours per year. 
+  
+
+
 
 
 
