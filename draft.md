@@ -18,18 +18,6 @@ bibliography: references.bib
 
 3.  Large biocuration databases, like UniProt [*add other examples*], are a core resource of current research. This large amount of hidden small curated datasets, if combined and distributed, could make a similarly huge impact in the flow of scientific information.
 
-# The proposed approach
-
-1.  We propose an approach that tries to balance the cost of making these intermediate datasets available with the value for the researchers who performed the data curation and for the scientific community at large [@stieglitz2020]. Hence our focus on systematic reviews, where the data curation is a necessary step - the structured dataset is a side effect.
-
-1.  Our proposal tries to balance the cost of making these intermediate datasets available with the value for the researchers who performed the data curation and for the scientific community at large [@stieglitz2020]. Hence our focus on systematic reviews, where the data curation is a necessary step. Because the structured dataset is a side effect of the research project, the only added step is making the dataset available.
-
-2.  Make it public: Nowadays, there are many possibilities for making datasets available. We recommend Zenodo, which will make the dataset citable, with its own DOI. As we mentioned above, the curation of these datasets is specialized work, it is a contribution to the scientific community. Being citable makes it easy for this work to be recognized. Another benefit is that Zenodo datasets are automatically indexed by data-specific search engines, such as Google Datasets.
-
-3.  Make it reusable: Describe datasets with enough information to facilitate reuse. If On a similar note, whenever possible, use unique identifiers (e.g. identify scientific articles by their DOI, instead of a full citation).
-
-4.  Make it interoperable: an extra-step, if you feel comfortable with it, is to add the data to open knowledge repositories, such as Wikidata (wikidata.org), while referencing your publicly available table. This makes your dataset available in a standard format, integrated with data from many other sources.
-
 # The why
 
 1.  Value. Your work has value: other researchers will love to see your curation, even if it is not perfect. It could save them many hours of work. It makes science more communal, it helps bring scientists who otherwise couldn't participate [@nagaraj2020].
@@ -45,3 +33,15 @@ bibliography: references.bib
 6.  Knowledge graph. Connecting to Wikidata enables powerful queries via the SPARQL query system. Connecting to Wikidata enables use of the Scholia platform to visualize the topics you have curated. Connecting to Wikidata makes it visible for everyone to improve Academic Search Engines, a systemic change that stands to benefit everyone. Although Wikidata is not yet in widespread use for academic purposes [@mora-cantallops2019], it has a lot of potential [@waagmeester2020].
 
 7.  Policy. Publishers and funders are recognizing the importance of open data and moving in that direction with their policies [@cousijn2018].
+
+# The proposed approach (box)
+
+`Tentei colocar essa parte no frame do FAIR, mas não sei se usar DOIs tá em reusable ou interoperable. De qualquer forma, acho que isso aqui devia ser uma caixinha no artigo, sabe? Separado do texto principal, como um "passo a passo sugerido pra fazer isso com os seus datasets". Por isso eu joguei essa seção pro final.`
+
+1.  Our proposal tries to balance the cost of making these intermediate datasets available with the value for the researchers who performed the data curation and for the scientific community at large [@stieglitz2020]. Hence our focus on systematic reviews, where the data curation is a necessary step. Because the structured dataset is a side effect of the research project, the only added step is making the dataset available.
+
+2.  Make it public: Nowadays, there are many possibilities for making datasets available. We recommend Zenodo, which will make the dataset citable, with its own DOI. As we mentioned above, the curation of these datasets is specialized work, it is a contribution to the scientific community. Being citable makes it easy for this work to be recognized. Another benefit is that Zenodo datasets are automatically indexed by data-specific search engines, such as Google Datasets.
+
+3.  Make it reusable: Describe datasets with enough information to facilitate reuse. If On a similar note, whenever possible, use unique identifiers (e.g. identify scientific articles by their DOI, instead of a full citation).
+
+4.  Make it interoperable: an extra-step, if you feel comfortable with it, is to add the data to open knowledge repositories, such as Wikidata (wikidata.org), while referencing your publicly available table. This makes your dataset available in a standard format, integrated with data from many other sources.
