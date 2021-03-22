@@ -20,17 +20,17 @@ bibliography: references.bib
 
 # The why
 
-1.  Value. Your work has value: other researchers will love to see your curation, even if it is not perfect. It could save them many hours of work. It makes science more communal, it helps bring scientists who otherwise couldn't participate [@nagaraj2020].
+1.  Making this data public brings many advantages, both to the researchers who curate the datasets and to the scientific community.
 
-2.  Findability. Google Datasets makes it very easy to find the work (and it indexes Zenodo as one of its sources): others will find, and you will find. Most likely, you (or someone in your research group) will be the ones that will try to use the dataset again. So, in 5 years, when you need, you'll be able to find your curation on Google, instead of spending hours sifting through old e-mails, Google Drive, Dropbox or even hard drives. You are your most likely future collaborator.
+2.  First of all, your work has value: other researchers will love to see your curation, even if it is not perfect. It could save them many hours of work. Searching and harmonizing many small datasets that are relevant to your research is no small feat. For instance, in comparative neuroanatomy, a researcher has published a [tutorial] ([<https://dieterlukas.github.io/data.html>](https://dieterlukas.github.io/data.html){.uri}) enumerating the multiple steps one might have to follow to find and gather datasets.
 
-3.  Searching and harmonizing many small datasets that are relevant to your research is no small feat. For instance, in comparative neuroanatomy, a researcher has published a [tutorial] (<https://dieterlukas.github.io/data.html>) enumerating the multiple steps one might have to follow to find and gather datasets.
+3.  Second, your work will be findable by anyone who wants to work with the data. For instance, Google Datasets makes it very easy to find the work (see Box). Others will find it, and you will find it. It makes science a more communal and shared endeavor, it helps bring in scientists who otherwise couldn't participate [@nagaraj2020]. Also, most likely, it is you (or someone in your research group) that will be the one who will try to use the dataset again in the future. Say, in 5 years time, when you need it, you will be able to find your curated dataset on Google, instead of spending hours sifting through old e-mails, Google Drive, Dropbox or even hard drives. You are your most likely future collaborator.
 
-4.  Rewards. A table in Zenodo with a DOI is citable, that's recognition for your valuable work. Empirical research also suggests that publications whose datasets are open are cited more often [@colavizza2020]. In addition, openness is increasingly being recognized as an aspect of scientific work that should be recognized and rewarded [@moher2018].
+4.  You will also be rewarded in other ways. A table in Zenodo with a DOI is citable, which mean you get recognition for your valuable work. Empirical research also suggests that publications whose datasets are open are cited more often [@colavizza2020]. In addition, openness is increasingly being recognized as an essential aspect of scientific work, one that should be recognized and rewarded [@moher2018]. Publishers and funders are recognizing the importance of open data and moving in that direction with their policies [@cousijn2018].
 
-5.  Quality. Making it public improves the curation quality, thereby in a cascade improving the quality of your own work, because you know someone will be able to use it later.
+5.  Another indirect advantage is that making it public improves the curation quality, thereby in a cascade improving the quality of your own work, because you know someone will be able to use it later.
 
-6.  Knowledge graph. Connecting to Wikidata enables powerful queries via the SPARQL query system. Connecting to Wikidata enables use of the Scholia platform to visualize the topics you have curated. Connecting to Wikidata makes it visible for everyone to improve Academic Search Engines, a systemic change that stands to benefit everyone. Although Wikidata is not yet in widespread use for academic purposes [@mora-cantallops2019], it has a lot of potential [@waagmeester2020].
+    `Aqui eu fico pensando se não dá uma impressão ruim de Big Brother, se não vai inibir as pessoas porque elas não querem ser observadas o tempo inteiro. Talvez seja contra produtivo ressaltar isso, talvez as pessoas não queiram ser lembradas de que tem gente olhando.`
 
 7.  Policy. Publishers and funders are recognizing the importance of open data and moving in that direction with their policies [@cousijn2018].
 
