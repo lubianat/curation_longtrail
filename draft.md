@@ -12,25 +12,23 @@ bibliography: references.bib
 
 # The opportunity
 
-1.  These intermediate tables are a rich source of organized information about research projects. They are the distilled product of several days of highly-specialized work.
+1.  These intermediate tables are a rich source of organized information about the published literature. They are the distilled product of several days of highly-specialized work.
 
-2.  They are already organized (you needed to organize it for your project!) and could be made available to the community.
+2.  Moreover, they are already organized (the scientists involved needed to organize it for their own projects!), which means they could easily be made available to the community.
 
-3.  Large biocuration databases, like UniProt [*add other examples*], are a core resource of current research.
-
-4.  The large amount of small hidden data curations, if combined and distributed, could make a similarly huge impact in the flow of information.
+3.  Large biocuration databases, like UniProt [*add other examples*], are a core resource of current research. This large amount of hidden small curated datasets, if combined and distributed, could make a similarly huge impact in the flow of scientific information.
 
 # The proposed approach
 
 1.  We propose an approach that tries to balance the cost of making these intermediate datasets available with the value for the researchers who performed the data curation and for the scientific community at large [@stieglitz2020]. Hence our focus on systematic reviews, where the data curation is a necessary step - the structured dataset is a side effect.
 
-2.  Make datasets available in Zenodo.
+1.  Our proposal tries to balance the cost of making these intermediate datasets available with the value for the researchers who performed the data curation and for the scientific community at large [@stieglitz2020]. Hence our focus on systematic reviews, where the data curation is a necessary step. Because the structured dataset is a side effect of the research project, the only added step is making the dataset available.
 
-3.  Describe datasets with enough information to facilitate reuse.
+2.  Make it public: Nowadays, there are many possibilities for making datasets available. We recommend Zenodo, which will make the dataset citable, with its own DOI. As we mentioned above, the curation of these datasets is specialized work, it is a contribution to the scientific community. Being citable makes it easy for this work to be recognized. Another benefit is that Zenodo datasets are automatically indexed by data-specific search engines, such as Google Datasets.
 
-4.  Use, when possible, identifiers (e.g. DOI).
+3.  Make it reusable: Describe datasets with enough information to facilitate reuse. If On a similar note, whenever possible, use unique identifiers (e.g. identify scientific articles by their DOI, instead of a full citation).
 
-5.  If feeling comfortable, add to Wikidata and reference your publically available table.
+4.  Make it interoperable: an extra-step, if you feel comfortable with it, is to add the data to open knowledge repositories, such as Wikidata (wikidata.org), while referencing your publicly available table. This makes your dataset available in a standard format, integrated with data from many other sources.
 
 # The why
 
