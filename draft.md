@@ -4,11 +4,11 @@ bibliography: references.bib
 
 # The situation
 
-1.  Research projects always involve familiarization with the literature. This is true for all projects, but it's more explicit and obviously true for narrative and systematic reviews.
+1.  One of the first steps in every research project is to become familiar with the relevant literature. While in some level this is true for all research projects, it is made much more explicit for reviews, be they narrative or systematic ones.
 
-2.  Often (if not always) the literature curation generates intermediate products containing organized, tabulated information about the articles of interest. These intermediate tables are the basis for preparing experiments and discussing results. For instance, in systematic reviews, they are screened based on certain criteria, and only a fraction of the studies are included in the end.
+2.  Often - if not always - this curation of the relavant literature generates intermediate products containing organized, tabulated information about the articles of interest. These intermediate tables will then be the basis for preparing experiments or discussing results in a review. In systematic reviews, in particular, the data in these tables are used when articles are considered for inclusion. It is likely that information is collected for a large number of articles even if only a small fraction of the studies end up being included.
 
-3.  While when pooled together, this might amount to an enormous amount of data, most scientists produce small datasets [@ferguson2014] - most of which, currently, are not made public.
+3.  Most scientists are already producing these small datasets - most of which, currently, are not made public. When pooled together, this might amount to enormous quantities of high-quality data, curated by people with the relevant local-expertise [@ferguson2014].
 
 # The opportunity
 
