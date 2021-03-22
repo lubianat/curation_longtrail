@@ -32,7 +32,11 @@ bibliography: references.bib
 
     `Aqui eu fico pensando se não dá uma impressão ruim de Big Brother, se não vai inibir as pessoas porque elas não querem ser observadas o tempo inteiro. Talvez seja contra produtivo ressaltar isso, talvez as pessoas não queiram ser lembradas de que tem gente olhando.`
 
-7.  Policy. Publishers and funders are recognizing the importance of open data and moving in that direction with their policies [@cousijn2018].
+6.  Lastly, if you connect your data to Wikidata, the community gets the all the benefits of an integrated knowledge graph. For instance, it enables powerful queries via the SPARQL query system. It enables the use of the Scholia platform to visualize the topics you have curated. It makes it visible for everyone to improve academic search engines. Although Wikidata is not yet in widespread use for academic purposes [@mora-cantallops2019], it has a lot of potential for research - specially for systematic reviews [@waagmeester2020].
+
+# Final thoughts
+
+1.  Thousands of systematic reviews are published each year [@møller2018] and a large part, if not most, of the curation performed in the course of these reviews remains invisible, unusable and unrecognized. Systematic reviews could be designed from the start to have their curated datasets in a format that makes it easy to share it later. We argued that this is a great opportunity for open science, where there is a lot to be gained from a small additional effort.
 
 # The proposed approach (box)
 
