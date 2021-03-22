@@ -4,25 +4,32 @@ bibliography: references.bib
 
 # The situation
 
-1.  One of the first steps in every research project is to become familiar with the relevant literature. While in some level this is true for all research projects, it is made much more explicit for reviews, be they narrative or systematic ones.
+1.  Whenever starting a new line of work, researchers face the task of searching for sources of information to become familiar with the relevant knowledge. Online search has fundamentally taken the place of book digging on libraries. The curation of the literature, once including physical cards and folders [\@wikidata:Q59134700] is carried today in various organizational ways, which are peculiar for every researcher. While in some level this is true for all research projects, it is made much more explicit for reviews, be they narrative or systematic ones.
 
-2.  Often - if not always - this curation of the relavant literature generates intermediate products containing organized, tabulated information about the articles of interest. These intermediate tables will then be the basis for preparing experiments or discussing results in a review. In systematic reviews, in particular, the data in these tables are used when articles are considered for inclusion. It is likely that information is collected for a large number of articles even if only a small fraction of the studies end up being included.
+2.  Even though each person has their organizational quirks, a common
+    feature of many curation processes is the generation of intermediate
+    products containing organized, tabulated information.
+    From basic topic-tagging to the extraction of various types of
+    information, these intermediate products provide the basis for the
+    research process: they influence the mental models, serve as raw
+    material for planning experiments, and are indispensable when writing
+    introductions and discussions. In systematic reviews, in particular, this is an unavoidable step - the data in these tables are used when articles are considered for inclusion. It is often the case that information is collected for a large number of articles even if only a small fraction of the studies end up being included. However, these data, produced after many hours of focused, specialized work, are almost always relegated to forgotten folders.
 
-3.  Most scientists are already producing these small datasets - most of which, currently, are not made public. When pooled together, this might amount to enormous quantities of high-quality data, curated by people with the relevant local-expertise [@ferguson2014].
+3.  These intermediate tables are a rich source of organized information about the published literature. They are the distilled product of several days of highly-specialized work. Moreover, they are already organized (the scientists involved needed to organize it for their own projects!), which means they could easily be made available to the community.
 
-# The opportunity
+4.  Most scientists are already producing these small datasets - most of which, currently, are not made public. When pooled together, this might amount to enormous quantities of high-quality data, curated by people with the relevant local-expertise [\@wikidata:Q24790499] [@ferguson2014].
 
-1.  These intermediate tables are a rich source of organized information about the published literature. They are the distilled product of several days of highly-specialized work.
+5.  Huge biocuration projects, such as UniProt and Gene Ontology, are core
+    tools of modern life sciences and cover a fraction of any researcher's
+    topics of interest.
 
-2.  Moreover, they are already organized (the scientists involved needed to organize it for their own projects!), which means they could easily be made available to the community.
-
-3.  Large biocuration databases, like UniProt [*add other examples*], are a core resource of current research. This large amount of hidden small curated datasets, if combined and distributed, could make a similarly huge impact in the flow of scientific information.
+6.  In this opinion article, we advocate for sharing small (or not so small) curated datasets made by every researcher. We argue that this would benefit both the researchers' careers and, collectively, provide a new core knowledge resource for life scientists.
 
 # The why
 
 1.  Making this data public brings many advantages, both to the researchers who curate the datasets and to the scientific community.
 
-2.  First of all, your work has value: other researchers will love to see your curation, even if it is not perfect. It could save them many hours of work. Searching and harmonizing many small datasets that are relevant to your research is no small feat. For instance, in comparative neuroanatomy, a researcher has published a [tutorial] ([<https://dieterlukas.github.io/data.html>](https://dieterlukas.github.io/data.html){.uri}) enumerating the multiple steps one might have to follow to find and gather datasets.
+2.  First of all, your work has value: other researchers will love to see your curation, even if it is not perfect. It could save them many hours of work. Searching and harmonizing many small datasets that are relevant to your research is no small feat. For instance, in comparative neuroanatomy, a researcher has published a [tutorial] ([\<https://dieterlukas.github.io/data.html\>](https://dieterlukas.github.io/data.html){.uri}) enumerating the multiple steps one might have to follow to find and gather datasets.
 
 3.  Second, your work will be findable by anyone who wants to work with the data. For instance, Google Datasets makes it very easy to find the work (see Box). Others will find it, and you will find it. It makes science a more communal and shared endeavor, it helps bring in scientists who otherwise couldn't participate [@nagaraj2020]. Also, most likely, it is you (or someone in your research group) that will be the one who will try to use the dataset again in the future. Say, in 5 years time, when you need it, you will be able to find your curated dataset on Google, instead of spending hours sifting through old e-mails, Google Drive, Dropbox or even hard drives. You are your most likely future collaborator.
 
@@ -36,7 +43,7 @@ bibliography: references.bib
 
 # Final thoughts
 
-1.  Thousands of systematic reviews are published each year [@møller2018] and a large part, if not most, of the curation performed in the course of these reviews remains invisible, unusable and unrecognized. Systematic reviews could be designed from the start to have their curated datasets in a format that makes it easy to share it later. We argued that this is a great opportunity for open science, where there is a lot to be gained from a small additional effort.
+1.  Thousands of systematic reviews are published each year [@møller2018] and a large part, if not most, of the curation performed in the course of these reviews remains invisible, unusable and unrecognized. Systematic reviews could be designed from the start to have their curated datasets in a format that makes it easy to share it later. We argued that this is a great opportunity for open science, where there is a lot to be gained from a small additional effort. .This large amount of hidden small curated datasets, if combined and distributed, could make a huge impact in the flow of scientific information in the life sciences.
 
 # The proposed approach (box)
 
