@@ -4,6 +4,8 @@ A biocuration spreadsheet in this situation is a table that came from a curation
 - https://zenodo.org/record/4589519#.YIDHRnVKi00
 - https://zenodo.org/record/4631221#.YIDHR3VKi00
 
+ Note: it does not need to be English! You are the one publishing, so you choose the language. 
+
 ## Pre-processing:
 
   - Clean up the dataset (as much as you like, it is your call) 
@@ -45,16 +47,13 @@ __Columns__:
   - Click on the green button _Start upload_
   - Skip the _Community_ section
   - Select upload type "_dataset_"
-  - Add the basic information (no DOI, one will be assigned to your table):
+  - Add the basic information (no need to assign a DOI, one will be assigned automatically to your table):
       - A title
       - Your credentials (and of the other people that worked in the dataset)
       - The description of the dataset (alongside the description of each column!)
 
-  - Add a version tag (you might want to update it in the future!). One option is set the first version be 1.0, and update with time.  
- Bump it to 1.1 if adding new tables (we will do that shortly!).
- Bump it to 2.0 if making a change that would break previous uses of the dataset (e.g. if you change the name of a column).
- 
-  - Add the primary language used on your table. It does not need  to be English!
+  - Add a version tag (you might want to update it in the future!). 
+  - Add the primary language used on your table.
   - Add a couple keywords. And the keyword "biocuration" so people know what type of dataset is there. 
   - Add a license. Release it in open access for maximal reuse of your curation.  The default "CC-BY" license is good enough for most purposes 
   (people can reuse, but they have to cite you).
