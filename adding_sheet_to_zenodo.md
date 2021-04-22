@@ -39,12 +39,12 @@ __Columns__:
  The .tsv format is more machine readable, while .xlsx (the Excel format) is more common among human beings.  
   - Go to https://zenodo.org/
   - Login or sign up
-  - Click on Upload (on the top) 
-  - Click on new upload
+  - Click on _Upload_ (on the top) 
+  - Click on _new upload_
   - Add both files (.tsv and .xlsx) that were downloaded previously.
-  - Click on the green button "Start upload"
-  - Skip the "Community" section
-  - Select upload type "dataset"
+  - Click on the green button _Start upload_
+  - Skip the _Community_ section
+  - Select upload type "_dataset_"
   - Add the basic information (no DOI, one will be assigned to your table):
       - A title
       - Your credentials (and of the other people that worked in the dataset)
