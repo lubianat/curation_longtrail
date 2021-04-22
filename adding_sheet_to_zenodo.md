@@ -1,5 +1,6 @@
-#  How to publish your biocuration dataset on Zenodo
+#  How to publish your biocuration spreadsheet on Zenodo
 
+A biocuration spreadsheet in this situation is a table that came from curation y
 End goal: Have your table published like:
 
 - https://zenodo.org/record/4589519#.YIDHRnVKi00
@@ -8,12 +9,12 @@ End goal: Have your table published like:
 ## Pre-processing:
 
   - Clean up the dataset (as much as you like, it is your call) 
-  - Don't be afraid to remove columns that are not relevant for publication. 
+  - Don't be afraid to remove columns that are not relevant for other people 
   - On a text file, add a short explanation of what your dataset is about
-
-  - Bellow it write a _dictionary_, mapping the names of the column headers to some explanation. This will end up on the description on Zenodo, and will be part of the explanation of your dataset on the plataform.  
+  - Below the explantation, write a _dictionary_ ("__Columns__" session), mapping the names of the column headers to some explanation. This will end up on the description on Zenodo, and will be part of the description of your dataset on the plataform.  
 
 For example:
+
 __Description__:
 
 A set of transcriptomics studies on the Gene Expression Omnibus (GEO) platform somehow related to infectious or neurodegenerative diseases.
@@ -28,15 +29,13 @@ __Columns__:
   - __Control sample__: The label of the control samples in the dataset
   - __Perturbed sample__: The label of the perturbed samples in the dataset
 
-  - Download your table  in two formats: .xlsx and.tsv format
-
 ## Uploading to Zenodo:
-
+  - Download your table  in two formats: .xlsx and .tsv format. The .tsv format is more machine readable, while .xlsx (the Excel format) is more common among human beings.  
   - Go to https://zenodo.org/
-  - Login or sign up to zenodo
+  - Login or sign up
   - Click on Upload (on the top) 
   - Click on new upload
-  - Add both files (.tsv and .xlsx) that were downloaded in the previous step.
+  - Add both files (.tsv and .xlsx) that were downloaded previously.
   - Click on the green button "Start upload"
   - Skip the "Community" section
   - Select upload type "dataset"
