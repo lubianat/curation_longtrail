@@ -37,7 +37,8 @@ __Columns__:
 ---
 
 ## Uploading to Zenodo:
-  - Download your table  in the format of preference. If you are using Excel/Google Sheets, we recommend two formats: .xlsx and .tsv format.
+  - Download your table  in the format of preference. 
+     - If you are using Excel/Google Sheets, we recommend two formats: .xlsx and .tsv format.
  The .tsv format is more machine readable, while .xlsx (the Excel format) is more common among human beings.  
   - Go to https://zenodo.org/
   - Login or sign up
