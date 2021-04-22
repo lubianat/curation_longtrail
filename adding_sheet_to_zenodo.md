@@ -38,20 +38,20 @@ __Columns__:
 
 ## Uploading to Zenodo:
   - Download your table  in the format of preference. 
-     - If you are using Excel/Google Sheets, we recommend two formats: .xlsx and .tsv format.
- The .tsv format is more machine readable, while .xlsx (the Excel format) is more common among human beings.  
+     - If you are using Excel/Google Sheets, we recommend two formats: _.xlsx_ and _.tsv_ format.
+ The _.tsv_ format is more machine readable, while .xlsx (the Excel format) is more common among human beings.  
   - Go to https://zenodo.org/
   - Login or sign up
   - Click on _Upload_ (on the top) 
-  - Click on _new upload_
+  - Click on _new upload_ (green button)
   - Add both files (.tsv and .xlsx) that were downloaded previously.
   - Click on the green button _Start upload_
-  - Skip the _Community_ section
+  - Skip the _Communities_ section (it is reserved for specific projects)
   - Select upload type "_dataset_"
   - Add the basic information (no need to assign a DOI, one will be assigned automatically to your table):
-      - A title
-      - Your credentials (and of the other people that worked in the dataset)
-      - The description of the dataset (alongside the description of each column!)
+      - Add a title
+      - Add your credentials (and of the other people that worked in the dataset)
+      - The description of the dataset and the _dictionary_ that you prepared in the text file. 
 
   - Add a version tag (you might want to update it in the future!). 
   - Add the primary language used on your table.
