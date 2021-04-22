@@ -1,11 +1,22 @@
-# Pilot
+#  How to publish your biocuration dataset on Zenodo
+
+End goal: Have your table published like:
+
+- https://zenodo.org/record/4589519#.YIDHRnVKi00
+- https://zenodo.org/record/4631221#.YIDHR3VKi00
 
 ## Pre-processing:
 
-	- 
+  - Clean up the dataset (as much as you like, it is your call) 
+  - Don't be afraid to remove columns that are not relevant for publication. 
+  - On a text file, add a short explanation of what your dataset is about
 
-  - Remove columns that are not relevant for publication 
-  - On a text file, write a colum dictionary, mapping the names of the colum headers to some explanation. For example:
+  - Bellow it write a _dictionary_, mapping the names of the column headers to some explanation. This will end up on the description on Zenodo, and will be part of the explanation of your dataset on the plataform.  
+
+For example:
+__Description__:
+
+A set of transcriptomics studies on the Gene Expression Omnibus (GEO) platform somehow related to infectious or neurodegenerative diseases.
 
 __Columns__:
 
@@ -17,14 +28,7 @@ __Columns__:
   - __Control sample__: The label of the control samples in the dataset
   - __Perturbed sample__: The label of the perturbed samples in the dataset
 
-
-
-This curation and release were supported by the grants #2018/10257-2 and  #2019/26284-1 from the São Paulo Research Foundation (FAPESP).
-Write up  a dictionay with
-Standardize capitalization and punctuation where possible (not crucial). 
-  - Remo
-  - Download your table  the in .xlsx format
-  - Download in .tsv format
+  - Download your table  in two formats: .xlsx and.tsv format
 
 ## Uploading to Zenodo:
 
