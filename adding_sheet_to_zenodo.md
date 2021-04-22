@@ -33,7 +33,9 @@ Pre-processing:
   - Download in .tsv format
 
 # Uploading to Zenodo:
-  - New upload
+
+Go to https://zenodo.org/ 
+  - Click on new upload
   - Add both files (.tsv and .xlsx) that were downloaded in the previous step.
   - Click on the green button "Start upload"
   - Skip the "Community" section
