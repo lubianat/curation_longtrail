@@ -32,7 +32,7 @@ Pre-processing:
   - Download in .xlsx format
   - Download in .tsv format
 
-Uploading to Zenodo:
+# Uploading to Zenodo:
   - New upload
   - Add both files (.tsv and .xlsx) that were downloaded in the previous step.
   - Click on the green button "Start upload"
