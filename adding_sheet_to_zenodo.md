@@ -13,6 +13,9 @@ A biocuration spreadsheet in this situation is a table that came from a curation
 
 For example:
 
+---
+**EXAMPLE**
+
 __Description__:
 
 A set of transcriptomics studies on the Gene Expression Omnibus (GEO) platform somehow related to infectious or neurodegenerative diseases.
@@ -27,8 +30,13 @@ __Columns__:
   - __Control sample__: The label of the control samples in the dataset
   - __Perturbed sample__: The label of the perturbed samples in the dataset
 
+**EXAMPLE**
+
+---
+
 ## Uploading to Zenodo:
-  - Download your table  in two formats: .xlsx and .tsv format. The .tsv format is more machine readable, while .xlsx (the Excel format) is more common among human beings.  
+  - Download your table  in the format of preference. If you are using Excel/Google Sheets, we recommend two formats: .xlsx and .tsv format.
+ The .tsv format is more machine readable, while .xlsx (the Excel format) is more common among human beings.  
   - Go to https://zenodo.org/
   - Login or sign up
   - Click on Upload (on the top) 
