@@ -1,8 +1,6 @@
 #  How to publish your biocuration spreadsheet on Zenodo
 
-A biocuration spreadsheet in this situation is a table that came from curation y
-End goal: Have your table published like:
-
+A biocuration spreadsheet in this situation is a table that came from a curation effort. The end goal is to have a table published on Zenodo, like: 
 - https://zenodo.org/record/4589519#.YIDHRnVKi00
 - https://zenodo.org/record/4631221#.YIDHR3VKi00
 
