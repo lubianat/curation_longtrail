@@ -1,13 +1,11 @@
 # Pilot
 
+## Pre-processing:
 
-Dataset: Studies on GEO related to neurogeneration or infections diseases.
+	- 
 
-Google Sheets: https://docs.google.com/spreadsheets/d/1LjF4h8n6Sy4PgTJoC-fJ7mGnqGCvqmWiatf2zD-5RM8/edit#gid=0
-
-__Description__:
-
-A set of transcriptomics studies on the Gene Expression Omnibus (GEO) platform somehow related to infectious or neurodegenerative diseases.
+  - Remove columns that are not relevant for publication 
+  - On a text file, write a colum dictionary, mapping the names of the colum headers to some explanation. For example:
 
 __Columns__:
 
@@ -19,22 +17,20 @@ __Columns__:
   - __Control sample__: The label of the control samples in the dataset
   - __Perturbed sample__: The label of the perturbed samples in the dataset
 
-__Funding__: 
+
 
 This curation and release were supported by the grants #2018/10257-2 and  #2019/26284-1 from the São Paulo Research Foundation (FAPESP).
-
-
-Pre-processing:
-
-  - Standardize capitalization and punctuation where possible (not crucial). 
-  - Table was _not_ reviewed again (as this would not be done in practice anyways) 
-  - Original sheet named "original"
-  - Download in .xlsx format
+Write up  a dictionay with
+Standardize capitalization and punctuation where possible (not crucial). 
+  - Remo
+  - Download your table  the in .xlsx format
   - Download in .tsv format
 
-# Uploading to Zenodo:
+## Uploading to Zenodo:
 
-Go to https://zenodo.org/ 
+  - Go to https://zenodo.org/
+  - Login or sign up to zenodo
+  - Click on Upload (on the top) 
   - Click on new upload
   - Add both files (.tsv and .xlsx) that were downloaded in the previous step.
   - Click on the green button "Start upload"
