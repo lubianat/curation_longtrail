@@ -71,7 +71,7 @@ Done! Now the dataset is openly available and:
 - Will soon be indexed and visible to Google Dataset Search. 
 
 
-Next step: Add info to Wikidata! 
+- Congratulations, you've made the world a bit better! 
 
 ## Reconciling to Wikidata
 
