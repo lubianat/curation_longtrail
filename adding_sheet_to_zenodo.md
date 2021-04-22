@@ -51,27 +51,24 @@ __Columns__:
   - Add the basic information (no need to assign a DOI, one will be assigned automatically to your table):
       - Add a title
       - Add your credentials (and of the other people that worked in the dataset)
-      - The description of the dataset and the _dictionary_ that you prepared in the text file. 
+      - Add the text file you have prepared (the one one with the description and the dictionary". 
 
   - Add a version tag (you might want to update it in the future!). 
   - Add the primary language used on your table.
-  - Add a couple keywords. And the keyword "biocuration" so people know what type of dataset is there. 
+  - Add a couple keywords. For each new keyword, click on "+ Add another keyword". If possible, also add a tag "biocuration" 
   - Add a license. Release it in open access for maximal reuse of your curation.  The default "CC-BY" license is good enough for most purposes 
   (people can reuse, but they have to cite you).
-  
+  - _Skip everything after the license part._ (Well, you can add more optional info, if you have time)
   - Click "Save"
   - Click "Publish"
 
-
-Done! Now the dataset is openly available and:
-
-- Got a DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4573573.svg)](https://doi.org/10.5281/zenodo.4573573)
+- Congratulations, you've made the world a bit better! Now the dataset is openly available. Also 
+    - Got a DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4573573.svg)](https://doi.org/10.5281/zenodo.4573573)
 - Can be shared: https://zenodo.org/record/4573573#.YD5TG3VKi00
 - Can be cited (it has a DOI!) 
 - Will soon be indexed and visible to Google Dataset Search. 
 
 
-- Congratulations, you've made the world a bit better! 
 
 ## Reconciling to Wikidata
 
